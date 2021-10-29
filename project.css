@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/pics/5-Best-Free-and-Paid-Weather-APIs-2019-e1587582023501.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: serif;
+    color: #fff;
+}
+.top{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0px 8px 10px rgba(0, 0,0, 0.7);
+    margin-top: 10px;
+}
+.search-box{
+    text-align: center;
+}
+#Country{
+    margin: 1%;
+    width: 25%;
+    outline: none;
+    border: none;
+    background: none;
+    appearance: none;
+    background-color: #e6f0ff;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(0, 0,0, 0.7) ;
+    font-size: 125%;
+}
+#City{
+    margin: 1%;
+    width: 25%;
+    outline: none;
+    border: none;
+    background: none;
+    appearance: none;
+    background-color: #e6f0ff;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(0, 0,0, 0.7) ;
+    font-size: 125%;
+}
+#btn{
+    margin: 1%;
+    width: 10%;
+    height: 30px;
+    border: solid-wight-border;
+    color:black;
+    background-color: rgba(253, 253, 253, 0.247);
+    transition: 0.5s;
+    border-radius: 30px;
+}
+#btn:hover{
+    background-color: yellow;
+    transition: 0.5s;
+}
+.showCountry{
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    color: red;
+}
+.showCity{
+    text-align: center;
+    font-size: 30px;
+    margin : 10px;
+    margin-bottom: 30px;
+    color: red;
+}
+.info{
+    text-align: center;
+    font-size: 150%; 
+    color: red;
+}
